@@ -25,6 +25,11 @@
     <%= form.label :name %>
     <%= form.text_field :name, id: :message_name %>
   </div>
+  
+  <div class="field">
+    <%= form.label :new_column %>
+    <%= form.text_area :new_column, id: :message_newcolumn %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>
